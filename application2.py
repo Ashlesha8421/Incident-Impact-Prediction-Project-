@@ -14,7 +14,7 @@ import numpy as np
 import streamlit as st
 import pickle as p
 
-p_out = open("C:/Users/91830/Incident_Impact_Prediction_Project/model_xgb.pkl", "rb")
+p_out = open("C:/Users/91830/Incident_Impact_Prediction_Project/model_rf.pkl", "rb")
 model = p.load(p_out)
 
 def welcome():
