@@ -1,3 +1,6 @@
+![Incident Impcat Prediction](https://github.com/Ashlesha8421/Incident-Impact-Prediction-Project-/blob/Ashlesha_Datir/Incident%20Impcat%20Prediction%20GIF.gif)
+
+
 # Incident-Impact-Prediction-Project-
 * Objective : 
              The objective of the analysis is to predict an impact on the basis of 
@@ -36,8 +39,7 @@ Model accuracy is defined as the number of classifications a model correctly pre
 We used different different models but Finalized model is following below :
 
 # XGBoost Classifier:
-It is a gradient boosting algorithm which forms strong rules for the model by boosting weak learners to a strong learner. It is a fast and efficient algorithm which recently dominated machine learning because of its high performance and speed.
-for more info [Click Here ](https://xgboost.readthedocs.io/en/latest/)
+As the name suggests, "Random Forest is a classifier that contains a number of decision trees on various subsets of the given dataset and takes the average to improve the predictive  accuracy of that dataset." Instead of relying on one decision tree, the random forest takes the prediction from each tree and based on the majority votes of predictions,and it predicts the final output. for more info [Click Here ](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 
 # Deployment :
 Finally I used Streamlit App framework to deploy my application.
