@@ -38,7 +38,7 @@ Model accuracy is defined as the number of classifications a model correctly pre
 # Model Building :
 We used different different models but Finalized model is following below :
 
-# XGBoost Classifier:
+# RandomForestClassifier :
 As the name suggests, "Random Forest is a classifier that contains a number of decision trees on various subsets of the given dataset and takes the average to improve the predictive  accuracy of that dataset." Instead of relying on one decision tree, the random forest takes the prediction from each tree and based on the majority votes of predictions,and it predicts the final output. for more info [Click Here ](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 
 # Deployment :
