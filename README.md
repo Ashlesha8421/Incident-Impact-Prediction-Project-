@@ -19,6 +19,14 @@ event log of an incident management process extracted from a service desk platfo
 * We ues missing value imputation for numeric variable using backfill (use next valid observation to fill gap)
 * We use missing value imputation for categorical variable using mode
 ![MissingValueTreatment](https://github.com/Ashlesha8421/Incident-Impact-Prediction-Project-/blob/Ashlesha_Datir/Images/MissingValueTreatment.png)
+ 
+# Balancing The Data :
+ From the below figure, we can see that there are two graph where 1st figure shows data is imbalance and other is balanced.
+ and Balancing the data is done by using SMOTEomek.
+Original data set shape Counter({1: 1415, 2: 54437, 3:1610)
+Resample data set shape Counter({1: 54437, 2: 54437, 3:54437})
+
+![Balance&Imbalance](https://github.com/Ashlesha8421/Incident-Impact-Prediction-Project-/blob/Ashlesha_Datir/Images/Balance%26Imbalance.png)
 
 # Feature Selection :
 Feature selection is a process where you automatically select those feature in your data that contribute most to prediction variables in which you are interested. The benifits of performing feature selections
@@ -28,14 +36,6 @@ Feature selection is a process where you automatically select those feature in y
 1) Chi square test.
 2) Mutule information.
 3) Decision Tree classifier.
- 
-# Balancing The Data :
- From the below figure, we can see that there are two graph where 1st figure shows data is imbalance and other is balanced.
- and Balancing the data is done by using SMOTEomek.
-Original data set shape Counter({1: 1415, 2: 54437, 3:1610)
-Resample data set shape Counter({1: 54437, 2: 54437, 3:54437})
-
-![Balance&Imbalance](https://github.com/Ashlesha8421/Incident-Impact-Prediction-Project-/blob/Ashlesha_Datir/Images/Balance%26Imbalance.png)
 
 # Accuracy of models :
 Model accuracy is defined as the number of classifications a model correctly predicts divided by the total number of predictions made. 
