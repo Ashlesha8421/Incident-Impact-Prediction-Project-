@@ -19,6 +19,15 @@ event log of an incident management process extracted from a service desk platfo
 * We ues missing value imputation for numeric variable using backfill (use next valid observation to fill gap)
 * We use missing value imputation for categorical variable using mode
 ![MissingValueTreatment](https://github.com/Ashlesha8421/Incident-Impact-Prediction-Project-/blob/Ashlesha_Datir/Images/MissingValueTreatment.png)
+
+# Feature Selection :
+Feature selection is a process where you automatically select those feature in your data that contribute most to prediction variables in which you are interested. The benifits of performing feature selections
+- To avoid overfitting 
+- Reduce training time
+### Here I used  these techinques of feature selections :
+1) Chi square test.
+2) Mutule information.
+3) Decision Tree classifier.
  
 # Balancing The Data :
  From the below figure, we can see that there are two graph where 1st figure shows data is imbalance and other is balanced.
