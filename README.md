@@ -67,3 +67,5 @@ Finally I used Streamlit App framework to deploy my application.
 * 2.Type 'streamlit run application2.py'
 * 3.It will run successfully
 (if not, open application2.py and just change the path of images and pickle file according to location)
+
+## Thank you😊 
